@@ -1,0 +1,69 @@
+body {
+    color: black;
+}
+
+.logo {
+    font-family: Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: white; 
+    font-size: 18px;
+    margin: 0 auto; 
+    padding: 0;
+    flex-grow: 1; 
+    justify-content: center;
+    transition: 0.5s ease;
+}
+.navbar-menu a:hover{
+    color: rgb(201, 70, 47);
+}
+
+.navbar .logo {
+    width: 150px;
+    flex-shrink: 0; 
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar-right img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    transform: scale(1, 1);
+}
+.navbar-right img:hover {
+    transform: scale(1.2,1.2);
+}
+
+.navbar button{
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    border: 2px solid rgb(201, 56, 31);
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.navbar button:hover{
+    background-color: rgb(201, 56, 31);
+}

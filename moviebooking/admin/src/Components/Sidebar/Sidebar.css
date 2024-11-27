@@ -1,0 +1,62 @@
+.sidebar {
+    margin-top: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #4163b9; /* Light ocean blue background */
+    color: white; /* Darker blue text color for contrast */
+    border-right: 1px solid #b2dfdb; /* Light teal border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    border-radius: 8px 0 0 8px; /* Rounded corners on the left side */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-header {
+    padding: 1rem;
+    background-color: #1d42ba; /* Dark ocean blue background for header */
+    color: #fff; /* White text color */
+    border-radius: 8px 8px 0 0; /* Rounded top corners */
+  }
+  
+  .sidebar-header h2 {
+    margin: 0;
+  }
+  
+  .sidebar-nav {
+    flex: 1;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Responsive grid layout */
+    grid-gap: 10px;
+    padding: 1rem;
+  }
+  
+  .sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-nav li {
+    margin: 0;
+  }
+  
+  .sidebar-nav a {
+    display: block;
+    padding: 1rem;
+    color: white; /* Dark ocean blue text color */
+    text-decoration: none;
+    border: 1px solid #b2dfdb; /* Light teal border around each item */
+    border-radius: 8px; /* Rounded corners for each item */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth background color and text color transition */
+    text-align: center; /* Center text within each item */
+  }
+  
+  .sidebar-nav a:hover {
+    background-color: rgb(50, 103, 239); /* Darker teal background color on hover */
+    color: yellow; /* Light ocean blue text color on hover */
+    cursor: pointer; /* Indicate that it's clickable */
+  }

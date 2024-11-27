@@ -1,0 +1,93 @@
+.register-popup {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: grid;
+    place-items: center; 
+}
+
+.register-popup-container {
+    width: max(23vw, 330px);
+    color: #808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+}
+
+.register-popup-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.register-popup-title img {
+    width: 16px;
+    cursor: pointer;
+}
+
+.register-popup-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.register-popup-inputs input {
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.register-popup-container button {
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: tomato;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.register-popup-condition {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: -15px;
+}
+.register-popup-condition a{
+    transition: 0.5s ease;
+   
+}
+.register-popup-condition a:hover{
+    transform: scale(1.25,1.25);
+    color: tomato;
+}
+
+.register-popup-condition input {
+    margin-top: 5px;
+}
+
+.register-popup p span {
+    color: tomato;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

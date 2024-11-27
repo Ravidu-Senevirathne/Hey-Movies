@@ -1,0 +1,49 @@
+.about-section {
+    margin-top: 20px;
+    background-color: #121212; 
+    color: #e0e0e0; 
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f50057; 
+  }
+  
+  .about-subtitle {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #f50057; 
+  }
+  
+  .about-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .about-list {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .about-list li {
+    margin-bottom: 10px;
+  }
+  
+  .about-thankyou {
+    font-size: 1.2rem;
+    margin-top: 30px;
+    text-align: center;
+    font-style: italic;
+    color: #ff4081; 
+  }
+  
